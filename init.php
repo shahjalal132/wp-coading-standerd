@@ -53,5 +53,5 @@ function techiepress_register_my_custom_menu_page() {
     );
 }
 
-// Add the custom menu page
+// Add the custom menu page.
 add_action( 'admin_menu', 'techiepress_register_my_custom_menu_page' );
