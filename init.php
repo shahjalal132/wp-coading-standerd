@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) or die( 'Unauthorized Access' );
  */
 function techiepress_get_send_data() {
 
-    $url = 'https://jsonplaceholder.typicode.com/users';
+    $url       = 'https://jsonplaceholder.typicode.com/users';
     $arguments = array( 'method' => 'GET' );
     $response  = wp_remote_get( $url, $arguments );
 
