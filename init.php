@@ -54,6 +54,8 @@ techiepress_register_my_custom_menu_page() {
 	add_menu_page(
 		__( 
 			
+
+
 			
 			'Query API Test Settings', 'query-apis' ),
 		'Query API Test',
@@ -71,3 +73,7 @@ add_action(
 
 
 );
+
+/**
+ * added whitespace
+ */
