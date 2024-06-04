@@ -8,13 +8,18 @@
  * version: 0.1.0
  * License: GPL2 or later.
  * text-domain: query-apis
- * @package wpcs
  * 
+ * @package wpcs
  */
 
 // If this file is access directly, abort!!!
 defined( 'ABSPATH' ) or die( 'Unauthorized Access' );
 
+/**
+ * get_send_data
+ *
+ * @return void
+ */
 function techiepress_get_send_data() {
 
     $url       = 'https://jsonplaceholder.typicode.com/users';
