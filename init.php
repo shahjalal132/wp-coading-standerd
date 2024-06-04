@@ -16,20 +16,19 @@
 defined( 'ABSPATH' ) or die( 'Unauthorized Access' );
 
 /**
- * get_send_data
+ * Get_send_data
  *
- * @return void
+ * @return string
  */
 function techiepress_get_send_data() {
 
-    $url       = 'https://jsonplaceholder.typicode.com/users';
+    $url = 'https://jsonplaceholder.typicode.com/users';
     $arguments = array( 'method' => 'GET' );
     $response  = wp_remote_get( $url, $arguments );
 
     if ( is_wp_error( $response ) ) {
         $error_message = $response->get_error_message();
-        return
-            "Something went wrong: $error_message";
+        return "Something went wrong: $error_message";
     } else {
         echo '<pre>';
         var_dump(
