@@ -8,7 +8,6 @@
  * version: 0.1.0
  * License: GPL2 or later.
  * text-domain: query-apis
- * 
  * @package wpcs
  */
 
